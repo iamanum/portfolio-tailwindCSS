@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Anum Munir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full bg-gray-800 text-white py-4 z-10 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-semibold text-teal-400">Anum Munir</h1>
+            <nav class="flex gap-6">
+                <a href="index.html" class="text-white text-lg font-semibold uppercase hover:text-teal-400 transition">Home</a>
+                <a href="about.html" class="text-white text-lg font-semibold uppercase hover:text-teal-400 transition">About</a>
+                <a href="contact.html" class="text-white text-lg font-semibold uppercase hover:text-teal-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-teal-400 to-cyan-500 text-white text-center relative">
+        <div class="max-w-4xl mx-auto px-6 py-10 bg-black bg-opacity-70 rounded-lg shadow-2xl animate-fadeInUp">
+            <h2 class="text-4xl font-semibold mb-8 animate-fadeInUp">About Me</h2>
+            <img src="images/profile.jpeg" alt="Anum Munir" class="w-44 h-44 rounded-full mx-auto border-4 border-white mb-8 shadow-xl animate-zoomIn">
+            <p class="text-lg leading-relaxed mb-6">Hello! I'm <strong>Anum Munir</strong>, a passionate Web Developer and Graphic Designer from Karachi, Pakistan. With over 5 years of experience, I specialize in creating beautiful, responsive websites and custom digital graphics.</p>
+            <p class="text-lg leading-relaxed mb-6">I am deeply committed to using my creativity and technical expertise to help clients enhance their online presence through modern web solutions. Whether it's building a new website from scratch or refreshing an existing design, I love turning ideas into impactful, user-friendly digital experiences.</p>
+            <p class="text-lg leading-relaxed mb-6">Besides coding, I also offer services in graphic design, including logo design, brand identity creation, and visual marketing content. I am always eager to learn new technologies, and I'm currently exploring advancements in Artificial Intelligence and Web3 to stay at the forefront of the tech industry.</p>
+            <p class="text-lg leading-relaxed mb-6">Feel free to get in touch with me for collaborations, freelance projects, or just to chat about the latest in tech and design!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>&copy; 2024 Anum Munir</p>
+    </footer>
+
+    <!-- Tailwind CSS Animations -->
+    <style>
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes zoomIn {
+            0% {
+                transform: scale(0.8);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        .animate-zoomIn {
+            animation: zoomIn 1.5s ease-out;
+        }
+    </style>
+</body>
+</html>
